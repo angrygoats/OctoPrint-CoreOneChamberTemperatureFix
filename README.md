@@ -13,9 +13,9 @@ This PR aims to be a simple fix to this problem by rewriting the chamber tempera
 
 ## Installing
 
-1. Clone the repository locally
-2. Using the plugin manager upload the `core_one_chamber_temp_fix.py` file
-3. Restart your Octoprint server
+1. Clone the repository locally.
+2. Using the plugin manager upload the `core_one_chamber_temp_fix.py` file.
+3. Restart your Octoprint server.
 
 ## Notes
 
