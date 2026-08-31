@@ -1,4 +1,4 @@
-# Core One Chamber Temperature Reporting Fix
+# Prusa Core One Chamber Temperature Reporting Fix
 
 This small plugin patches Octoprint so that chamber temperature is reported correctly for logging.
 
@@ -17,4 +17,12 @@ This PR aims to be a simple fix to this problem by rewriting the chamber tempera
 2. Using the plugin manager upload the `core_one_chamber_temp_fix.py` file
 3. Restart your Octoprint server
 
+## Notes
 
+### Tested Printers
+
+This has been tested on a Core One+. It will likely work for any Buddy firmware supported printer however it has not been tested on any others.
+
+### Fire Safety
+
+Do not use the reported chamber temperature as a method to detect in-chamber conditions indicative of a fire. Nor should you control any fire safety devices from Octoprint. Pursue more robust hardware-based options.
