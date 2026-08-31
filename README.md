@@ -11,6 +11,10 @@ Octoprint expects the form to be `C:` and not `C@:`. Below is the way Buddy Firm
 
 This PR aims to be a simple fix to this problem by rewriting the chamber temperature report command to `C` via `octoprint.comm.protocol.gcode.received`.
 
-## Usage 
+## Installing
 
-Clone this repository somewhere on your server and copy or simlink `core_one_chamber_temp_fix.py` into your `~/.octoprint/plugins`.
+1. Clone the repository locally
+2. Using the plugin manager upload the `core_one_chamber_temp_fix.py` file
+3. Restart your Octoprint server
+
+
